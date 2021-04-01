@@ -1,11 +1,11 @@
 class Dollar {
-    int amount = 10;
+    int amount;
 
     Dollar(int amount) {
-        // TODO Auto-generated constructor stub
+        this.amount = amount;
     }
 
     void times(int multiplier) {
-        // TODO 
+        amount *= multiplier;
     }
 }
