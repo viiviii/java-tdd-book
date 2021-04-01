@@ -1,5 +1,5 @@
 class Dollar {
-    int amount;
+    int amount = 10;
 
     Dollar(int amount) {
         // TODO Auto-generated constructor stub
