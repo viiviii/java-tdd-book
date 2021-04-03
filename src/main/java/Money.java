@@ -1,4 +1,4 @@
-public class Money {
+public abstract  class Money {
     protected int amount;
 
     static Dollar dollar(int amount) {
