@@ -1,4 +1,4 @@
-public abstract  class Money {
+public abstract class Money {
     protected int amount;
 
     static Money dollar(int amount) {
@@ -16,4 +16,6 @@ public abstract  class Money {
     }
 
     abstract Money times(int multiplier);
+
+    abstract String currency();
 }
