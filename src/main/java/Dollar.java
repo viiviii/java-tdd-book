@@ -5,7 +5,7 @@ class Dollar extends Money {
     }
 
     Money times(int multiplier) {
-        return new Money(amount * multiplier, currency);
+        return Money.dollar(amount * multiplier);
     }
 
 }
